@@ -6,7 +6,7 @@ trigger:
 variables:
   JIT_API_KEY: $(JitApiKey)  # Jit.io API anahtarını buraya gizli değişken olarak tanımlayın
 
-pool: hanMac
+pool: Default
 
 steps:
 - script: echo Hello, world!
